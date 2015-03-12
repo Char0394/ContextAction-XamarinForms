@@ -1,0 +1,15 @@
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/bin/Debug/ContextAction-Xamarin.dll.mdb
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/bin/Debug/ContextAction-Xamarin.dll
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContextAction-Xamarin.dll
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContextAction-Xamarin.dll.mdb
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContextActionXamarin.Views.TabbedPage.xaml
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/TabbedPage.xaml.g.cs
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContextActionXamarin.Views.TabbedView.xaml
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/TabbedView.xaml.g.cs
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContextActionXamarin.Views.ContentActionView.xaml
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContextActionXamarin.Views.StackLabelView.xaml
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/ContentActionView.xaml.g.cs
+/Users/Charline/Projects/ContextAction-Xamarin/ContextAction-Xamarin/obj/Debug/StackLabelView.xaml.g.cs

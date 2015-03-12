@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ContextActionXamarin.Views.StackLabelView">
+	<ContentPage.Content>
+	   <StackLayout x:Name="KeyWordsLayout">
+	       <StackLayout BackgroundColor="#EFEFF4">
+	          <StackLayout Padding="15,5,5,5" Orientation="Horizontal" >
+	              <Label Text="KEYWORDS:" TextColor="Black" Font="Large"/>
+	          </StackLayout>
+	       </StackLayout>
+
+		  <StackLayout Padding="15" x:Name="KeyWordsStackLayout"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal">
+		  </StackLayout>
+
+		  <StackLayout BackgroundColor="Red">
+                        <Label Text="Actual result"  BackgroundColor="Blue"/>
+                        <Label Text="1-If i dont know the quantity of labels that i will have and the size of them, labels will cut to adjust to the orientation"/>
+						<Label TextColor="Blue" Text="Ideally if i could have just one label and know which keyword is clicked could be a good solution but not sure how to accomplish this. Knowing what word of the label string was clicked."/>
+              </StackLayout>
+
+	  </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

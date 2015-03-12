@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ContextActionXamarin.Views.ContentActionView">
+	<ContentPage.Content>
+
+	<StackLayout VerticalOptions="FillAndExpand">
+							<StackLayout>
+								<ListView x:Name="list" 
+							             ItemsSource="{Binding Foods}" 
+							             HasUnevenRows="True"
+							             ItemTapped="OnItemSelected">
+							    <ListView.ItemTemplate>
+							      <DataTemplate>
+											<ViewCell Height="60">
+												<ViewCell.ContextActions >
+												 	<MenuItem Text="CopyLink" x:Name="CopyLink" />
+												 	<MenuItem Text="Visbility" x:Name="visibility"/>
+												 	<MenuItem Text="Permission" x:Name="permission"/>
+
+												 </ViewCell.ContextActions>	 
+									      		<Grid Padding="5">
+										      		<Grid.RowDefinitions>
+													    <RowDefinition Height="20"></RowDefinition>
+													    <RowDefinition Height="20"></RowDefinition>
+											    	</Grid.RowDefinitions>
+											    	<Grid.ColumnDefinitions>
+													    <ColumnDefinition Width="*"></ColumnDefinition>
+													    <ColumnDefinition Width="40"></ColumnDefinition>
+												    </Grid.ColumnDefinitions>
+
+												    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Name}" LineBreakMode="TailTruncation"></Label>
+												    <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Source="{Binding Image}" Aspect="AspectFill"/>
+									      		</Grid>
+									      	</ViewCell>
+							      </DataTemplate>
+							    </ListView.ItemTemplate>
+							  </ListView>
+                     </StackLayout>
+                     <StackLayout BackgroundColor="Red">
+                        <Label Text="Step to reproduce" BackgroundColor="Blue"/>
+                        <Label Text="1- Long press in a element and see while you are pressing the cell put a gray color"/>
+                        <Label Text="2- Press another cell"/>
+                         <Label Text="Actual result"  BackgroundColor="Blue"/>
+                        <Label Text="1-Is impossible to see what cell you are pressing, the gray color should stay"/>
+						<Label Text="2-(With the step to reproduce 1) When clicking on a element, the context menu does not disappears"/>
+                     </StackLayout>
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
