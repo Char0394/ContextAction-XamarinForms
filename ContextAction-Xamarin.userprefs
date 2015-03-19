@@ -1,1 +1,22 @@
-﻿<Properties StartupItem="Droid/ContextAction-Xamarin.Droid.csproj" />
+﻿<Properties StartupItem="Droid/ContextAction-Xamarin.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AndroidDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContextAction-Xamarin/Views/StackLabelView.xaml">
+    <Files>
+      <File FileName="ContextAction-Xamarin/ContextAction-Xamarin.cs" Line="4" Column="4" />
+      <File FileName="ContextAction-Xamarin/Views/TabbedView.xaml" Line="162" Column="162" />
+      <File FileName="ContextAction-Xamarin/Views/TabbedView.xaml.cs" Line="27" Column="27" />
+      <File FileName="ContextAction-Xamarin/Views/ContentActionView.xaml" Line="62" Column="62" />
+      <File FileName="ContextAction-Xamarin/Views/ContentActionView.xaml.cs" Line="4" Column="4" />
+      <File FileName="ContextAction-Xamarin/Views/StackLabelView.xaml" Line="15" Column="15" />
+      <File FileName="ContextAction-Xamarin/Views/StackLabelView.xaml.cs" Line="5" Column="5" />
+      <File FileName="ContextAction-Xamarin/ViewModels/FoodViewModel.cs" Line="6" Column="6" />
+      <File FileName="ContextAction-Xamarin/Models/Food.cs" Line="32" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../Desktop/Photoshelter1/PhotoShelter/Views/ImagesView/Gallery/GalleryDetailView.xaml.cs" line="98" offsetX="856" offsetY="1455" expression="recentAcitivity" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
